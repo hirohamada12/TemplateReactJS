@@ -1,5 +1,6 @@
 export default {
   'menu.welcome': 'Welcome',
+  'menu.tool': 'Tool',
   'menu.more-blocks': 'More Blocks',
   'menu.home': 'Home',
   'menu.admin': 'Admin',

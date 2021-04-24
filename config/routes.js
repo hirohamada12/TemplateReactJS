@@ -27,12 +27,17 @@ export default [
                 path: '/',
                 redirect: '/welcome',
               },
-
               {
                 path: '/welcome',
                 name: 'welcome',
                 icon: 'smile',
                 component: './Welcome',
+              },
+              {
+                path: '/tool',
+                name: 'tool',
+                icon: 'tool',
+                component: '../pages/AiozTool',
               },
               {
                 path: '/admin',
