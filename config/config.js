@@ -14,8 +14,8 @@ export default defineConfig({
     type: 'browser',
   },
   locale: {
-    // default en-US
-    default: 'en-US',
+    // default vi-VN
+    default: 'vi-VN',
     antd: true,
     // default true, when it is true, will use `navigator.language` overwrite default
     baseNavigator: true,

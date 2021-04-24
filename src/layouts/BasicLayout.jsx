@@ -1,7 +1,6 @@
 import ProLayout, {DefaultFooter} from '@ant-design/pro-layout';
 import React, {useEffect, useMemo, useRef} from 'react';
 import {Link, useIntl, connect, history} from 'umi';
-import {GithubOutlined} from '@ant-design/icons';
 import {Result, Button} from 'antd';
 import Authorized from '@/utils/Authorized';
 import RightContent from '@/components/GlobalHeader/RightContent';
@@ -123,10 +122,11 @@ const BasicLayout = (props) => {
         menuDataRef.current = menuData || [];
         return menuData || [];
       }}
-      waterMarkProps={{
-        content: 'KoderGang',
-        fontColor: 'rgba(24,144,255,0.15)',
-      }}
+      // add waterMark
+      // waterMarkProps={{
+      //   content: 'KoderGang',
+      //   fontColor: 'rgba(24,144,255,0.15)',
+      // }}
     >
       <Authorized authority={authorized.authority} noMatch={noMatch}>
         {children}
